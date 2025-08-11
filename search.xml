@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>第一篇文章</title>
-      <link href="/2025/08/10/2025-8-10-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2025/08/10/2025-8-10-%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      <title>godot入门</title>
+      <link href="/2025/08/11/godot%E5%85%A5%E9%97%A8/"/>
+      <url>/2025/08/11/godot%E5%85%A5%E9%97%A8/</url>
       
-        <content type="html"><![CDATA[<h2 id="这里是我的第一篇文章"><a href="#这里是我的第一篇文章" class="headerlink" title="这里是我的第一篇文章"></a>这里是我的第一篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<h1 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h1><ol><li>变量</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var number : int = 10</span><br><span class="line">var str := &quot;hello&quot;</span><br></pre></td></tr></table></figure><ol start="2"><li>控制语句</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">var flag := true</span><br><span class="line">if flag:</span><br><span class="line">    print(&quot;flag is true&quot;)</span><br><span class="line">else:</span><br><span class="line">    print(&quot;flag is false&quot;)</span><br></pre></td></tr></table></figure><ol start="3"><li>函数</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">func test() -&gt; void:</span><br><span class="line">    print(&quot;this is a function&quot;)</span><br></pre></td></tr></table></figure><ol start="4"><li>类</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 1.class关键字</span><br><span class="line"># 该类型只能在节点内部使用</span><br><span class="line">class TestClass:</span><br><span class="line">    pass</span><br><span class="line"></span><br><span class="line"># 2.class_name关键字</span><br><span class="line"># 可以将节点申明为全局的类型</span><br><span class="line">class_name Test</span><br></pre></td></tr></table></figure>]]></content>
       
       
       
